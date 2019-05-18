@@ -1,0 +1,1993 @@
+{
+    "authorization_uid": null, 
+    "created": "2019-05-18T07:52:26.907366+00:00", 
+    "customer_email": "", 
+    "disabled": false, 
+    "is_archived": false, 
+    "scope": {}, 
+    "template_uid": "600f4170", 
+    "uid": "55951", 
+    "updated": "2019-05-18T07:52:26.910482+00:00", 
+    "url": "https://utilityapi.com/authorize/hteich_stanford?f=886f9c38-14fc-41d4-8dbe-815d9b52ef64", 
+    "user_email": "hteich@stanford.edu", 
+    "user_uid": "67261", 
+    "utility": ""
+}{
+    "referral": "131220"
+}{
+    "authorizations": [
+        {
+            "created": "2019-05-18T07:40:24.045218+00:00", 
+            "customer_email": "hteich@stanford.edu", 
+            "customer_signature": {
+                "full_name": "hteich@stanford.edu", 
+                "ts": "2019-05-18T07:40:24.044379+00:00", 
+                "type": "text"
+            }, 
+            "declined": null, 
+            "expires": "2022-05-18T07:40:24.036818+00:00", 
+            "exports": {
+                "bills_combined_csv": "https://utilityapi.com/api/v2/files/meters_bills_csv?meters=367853", 
+                "bills_combined_screenshots_zip": "https://utilityapi.com/api/v2/files/meters_bills_screenshot_zip?meters=367853", 
+                "lineitems_combined_csv": "https://utilityapi.com/api/v2/files/meters_lineitems_csv?meters=367853", 
+                "meters_csv": "https://utilityapi.com/api/v2/files/meters_csv?accounts=132368"
+            }, 
+            "exports_list": [
+                {
+                    "link": "https://utilityapi.com/api/v2/files/meters_bills_csv?meters=367853", 
+                    "name": "Bills: all meters [csv]"
+                }, 
+                {
+                    "link": "https://utilityapi.com/api/v2/files/meters_bills_screenshot_zip?meters=367853", 
+                    "name": "Bills: all bills screenshots [zip]"
+                }, 
+                {
+                    "link": "https://utilityapi.com/api/v2/files/meters_csv?accounts=132368", 
+                    "name": "Meters: all meters [csv]"
+                }, 
+                {
+                    "link": "https://utilityapi.com/api/v2/files/meters_lineitems_csv?meters=367853", 
+                    "name": "Line items: all meters [csv]"
+                }
+            ], 
+            "form_uid": "55944", 
+            "is_archived": false, 
+            "is_declined": false, 
+            "is_expired": false, 
+            "is_revoked": false, 
+            "is_test": true, 
+            "meters": {
+                "meters": [
+                    {
+                        "authorization_uid": "132368", 
+                        "base": {
+                            "billing_account": "1234567890-0", 
+                            "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                            "billing_contact": "Heather Homeowner", 
+                            "meter_numbers": [
+                                "A987654321"
+                            ], 
+                            "service_address": "123 Main St #100, Anytown, CA 94612", 
+                            "service_class": "electric", 
+                            "service_identifier": "1234567890", 
+                            "service_tariff": "E1 XB Residential Service"
+                        }, 
+                        "bill_count": 13, 
+                        "bill_coverage": [
+                            [
+                                "2018-04-01T00:00:00.000000+00:00", 
+                                "2019-05-01T00:00:00.000000+00:00"
+                            ]
+                        ], 
+                        "bill_sources": [
+                            "pdf"
+                        ], 
+                        "blocks": [
+                            "base"
+                        ], 
+                        "created": "2019-05-18T07:40:27.275305+00:00", 
+                        "exports": {
+                            "bill_pdf_zipped": "https://utilityapi.com/api/v2/files/meters_bills_zip?meters=367853", 
+                            "bills_csv": "https://utilityapi.com/api/v2/files/meters_bills_csv?meters=367853", 
+                            "intervals_csv": "https://utilityapi.com/api/v2/files/intervals_csv?meters=367853", 
+                            "intervals_xml": "https://utilityapi.com/api/v2/files/intervals_xml?meters=367853", 
+                            "latest_pdf": "https://utilityapi.com/api/v2/files/latest_pdf/367853", 
+                            "lineitems_csv": "https://utilityapi.com/api/v2/files/meters_lineitems_csv?meters=367853"
+                        }, 
+                        "exports_list": [
+                            {
+                                "link": "https://utilityapi.com/api/v2/files/meters_bills_csv?meters=367853", 
+                                "name": "Bills: all bills [csv]"
+                            }, 
+                            {
+                                "link": "https://utilityapi.com/api/v2/files/meters_bills_zip?meters=367853", 
+                                "name": "Bills: all pdfs [zip]"
+                            }, 
+                            {
+                                "link": "https://utilityapi.com/api/v2/files/latest_pdf/367853", 
+                                "name": "Bills: latest pdf [pdf]"
+                            }, 
+                            {
+                                "link": "https://utilityapi.com/api/v2/files/intervals_csv?meters=367853", 
+                                "name": "Intervals: all intervals [csv]"
+                            }, 
+                            {
+                                "link": "https://utilityapi.com/api/v2/files/intervals_xml?meters=367853", 
+                                "name": "Intervals: all intervals [xml]"
+                            }, 
+                            {
+                                "link": "https://utilityapi.com/api/v2/files/meters_lineitems_csv?meters=367853", 
+                                "name": "Line items: all bills [csv]"
+                            }
+                        ], 
+                        "interval_count": 52, 
+                        "interval_coverage": [
+                            [
+                                "2015-02-18T04:00:00.000000+00:00", 
+                                "2015-02-20T08:00:00.000000+00:00"
+                            ]
+                        ], 
+                        "interval_sources": [
+                            "website"
+                        ], 
+                        "is_activated": true, 
+                        "is_archived": false, 
+                        "notes": [
+                            {
+                                "msg": "The utility accepted these credentials from the utility account holder.", 
+                                "ts": "2019-05-18T07:50:10.990234+00:00", 
+                                "type": "access_valid"
+                            }, 
+                            {
+                                "msg": "The utility website returned all bills requested.", 
+                                "ts": "2019-05-18T07:50:25.046308+00:00", 
+                                "type": "bills_full"
+                            }, 
+                            {
+                                "msg": "The utility website provided all intervals requested.", 
+                                "ts": "2019-05-18T07:50:25.050146+00:00", 
+                                "type": "intervals_full"
+                            }, 
+                            {
+                                "msg": "All meter details were successfully collected", 
+                                "ts": "2019-05-18T07:40:27.275305+00:00", 
+                                "type": "meters_full"
+                            }
+                        ], 
+                        "ongoing_monitoring": {
+                            "frequency": "off", 
+                            "next_prepay": null, 
+                            "next_refresh": null, 
+                            "prepay": null
+                        }, 
+                        "status": "updated", 
+                        "status_message": "Data refreshed", 
+                        "status_ts": "2019-05-18T07:50:25.234922+00:00", 
+                        "uid": "367853", 
+                        "user_email": "hteich@stanford.edu", 
+                        "user_uid": 67261, 
+                        "utility": "DEMO"
+                    }
+                ], 
+                "next": null
+            }, 
+            "nickname": null, 
+            "notes": [
+                {
+                    "msg": "The utility accepted these credentials from the utility account holder.", 
+                    "ts": "2019-05-18T07:40:25.193409+00:00", 
+                    "type": "access_valid"
+                }, 
+                {
+                    "msg": "All meters were successfully collected.", 
+                    "ts": "2019-05-18T07:40:27.202440+00:00", 
+                    "type": "meters_full"
+                }
+            ], 
+            "referrals": [
+                "131214"
+            ], 
+            "revoked": null, 
+            "scope": {
+                "expires": "2022-05-18T07:40:24.036818+00:00"
+            }, 
+            "status": "updated", 
+            "status_message": "Services refreshed", 
+            "status_ts": "2019-05-18T07:40:52.932459+00:00", 
+            "template_uid": "600f4170", 
+            "uid": "132368", 
+            "user_email": "hteich@stanford.edu", 
+            "user_status": "active", 
+            "user_uid": "67261", 
+            "utility": "DEMO"
+        }
+    ], 
+    "next": null
+}{
+    "meters": [
+        "367853"
+    ], 
+    "success": true
+}{
+    "bills": [
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2019-04-30T17:00:00.000000-07:00", 
+                "bill_start_date": "2019-03-31T17:00:00.000000-07:00", 
+                "bill_statement_date": "2019-04-30T17:00:00.000000-07:00", 
+                "bill_total_cost": 156.96, 
+                "bill_total_kwh": 743.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 743.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:25.608107-07:00", 
+            "line_items": [
+                {
+                    "cost": 46.44, 
+                    "end": "2014-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.1323, 
+                    "start": "2014-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 351.0
+                }, 
+                {
+                    "cost": 15.84, 
+                    "end": "2014-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.1504, 
+                    "start": "2014-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 105.3
+                }, 
+                {
+                    "cost": 79.55, 
+                    "end": "2014-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.32377, 
+                    "start": "2014-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 245.7
+                }, 
+                {
+                    "cost": 14.91, 
+                    "end": "2014-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.36377, 
+                    "start": "2014-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 41.0
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2014-02-05T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-01-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_13_2019-04-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 15.84, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 105.3
+                }, 
+                {
+                    "cost": 79.55, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 245.7
+                }, 
+                {
+                    "cost": 46.44, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 351.0
+                }, 
+                {
+                    "cost": 14.91, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 41.0
+                }
+            ], 
+            "uid": 2726749, 
+            "updated": "2019-05-18T00:47:25.608107-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2019-03-31T17:00:00.000000-07:00", 
+                "bill_start_date": "2019-02-28T16:00:00.000000-08:00", 
+                "bill_statement_date": "2019-03-31T17:00:00.000000-07:00", 
+                "bill_total_cost": 152.75, 
+                "bill_total_kwh": 731.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 731.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:24.601462-07:00", 
+            "line_items": [
+                {
+                    "cost": 35.6, 
+                    "end": "2014-02-28T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.1323, 
+                    "start": "2014-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 269.1
+                }, 
+                {
+                    "cost": 12.14, 
+                    "end": "2014-02-28T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.1504, 
+                    "start": "2014-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 80.73
+                }, 
+                {
+                    "cost": 60.99, 
+                    "end": "2014-02-28T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.32377, 
+                    "start": "2014-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 188.37
+                }, 
+                {
+                    "cost": 8.09, 
+                    "end": "2014-02-28T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.36377, 
+                    "start": "2014-02-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 22.23333
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2014-02-28T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-02-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 11.16, 
+                    "end": "2014-03-07T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 81.9
+                }, 
+                {
+                    "cost": 3.81, 
+                    "end": "2014-03-07T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 24.57
+                }, 
+                {
+                    "cost": 18.32, 
+                    "end": "2014-03-07T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31949, 
+                    "start": "2014-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 57.33
+                }, 
+                {
+                    "cost": 2.43, 
+                    "end": "2014-03-07T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35949, 
+                    "start": "2014-03-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 6.76667
+                }, 
+                {
+                    "cost": 0.05, 
+                    "end": "2014-03-07T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-03-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_12_2019-03-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 15.950000000000001, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 105.30000000000001
+                }, 
+                {
+                    "cost": 79.31, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 245.7
+                }, 
+                {
+                    "cost": 46.760000000000005, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 351.0
+                }, 
+                {
+                    "cost": 10.52, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 29.0
+                }
+            ], 
+            "uid": 2726748, 
+            "updated": "2019-05-18T00:47:24.601462-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2019-02-28T16:00:00.000000-08:00", 
+                "bill_start_date": "2019-01-31T16:00:00.000000-08:00", 
+                "bill_statement_date": "2019-02-28T16:00:00.000000-08:00", 
+                "bill_total_cost": 158.63, 
+                "bill_total_kwh": 756.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 756.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:23.590089-07:00", 
+            "line_items": [
+                {
+                    "cost": 49.43, 
+                    "end": "2014-04-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-03-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 362.7
+                }, 
+                {
+                    "cost": 16.86, 
+                    "end": "2014-04-07T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-03-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 108.81
+                }, 
+                {
+                    "cost": 81.12, 
+                    "end": "2014-04-07T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31949, 
+                    "start": "2014-03-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 253.89
+                }, 
+                {
+                    "cost": 11.0, 
+                    "end": "2014-04-07T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35949, 
+                    "start": "2014-03-08T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 30.6
+                }, 
+                {
+                    "cost": 0.22, 
+                    "end": "2014-04-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-03-08T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_11_2019-02-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 16.86, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 108.81
+                }, 
+                {
+                    "cost": 81.12, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 253.89
+                }, 
+                {
+                    "cost": 49.43, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 362.7
+                }, 
+                {
+                    "cost": 11.0, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 30.6
+                }
+            ], 
+            "uid": 2726747, 
+            "updated": "2019-05-18T00:47:23.590089-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2019-01-31T16:00:00.000000-08:00", 
+                "bill_start_date": "2018-12-31T16:00:00.000000-08:00", 
+                "bill_statement_date": "2019-01-31T16:00:00.000000-08:00", 
+                "bill_total_cost": 183.23, 
+                "bill_total_kwh": 810.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 810.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:22.620629-07:00", 
+            "line_items": [
+                {
+                    "cost": 36.67, 
+                    "end": "2014-04-30T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-04-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 269.1
+                }, 
+                {
+                    "cost": 12.51, 
+                    "end": "2014-04-30T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-04-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 80.73
+                }, 
+                {
+                    "cost": 60.18, 
+                    "end": "2014-04-30T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31949, 
+                    "start": "2014-04-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 188.37
+                }, 
+                {
+                    "cost": 29.77, 
+                    "end": "2014-04-30T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35949, 
+                    "start": "2014-04-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 82.8
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2014-04-30T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-04-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.49, 
+                    "end": "2014-05-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 77.0
+                }, 
+                {
+                    "cost": 3.58, 
+                    "end": "2014-05-07T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 23.1
+                }, 
+                {
+                    "cost": 17.22, 
+                    "end": "2014-05-07T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31955, 
+                    "start": "2014-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 53.9
+                }, 
+                {
+                    "cost": 12.58, 
+                    "end": "2014-05-07T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35955, 
+                    "start": "2014-05-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 35.0
+                }, 
+                {
+                    "cost": 0.05, 
+                    "end": "2014-05-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-05-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_10_2019-01-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 16.09, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 103.83000000000001
+                }, 
+                {
+                    "cost": 77.4, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 242.27
+                }, 
+                {
+                    "cost": 47.160000000000004, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 346.1
+                }, 
+                {
+                    "cost": 42.35, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 117.8
+                }
+            ], 
+            "uid": 2726746, 
+            "updated": "2019-05-18T00:47:22.620629-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-12-31T16:00:00.000000-08:00", 
+                "bill_start_date": "2018-11-30T16:00:00.000000-08:00", 
+                "bill_statement_date": "2018-12-31T16:00:00.000000-08:00", 
+                "bill_total_cost": 177.15, 
+                "bill_total_kwh": 779.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 779.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:21.686847-07:00", 
+            "line_items": [
+                {
+                    "cost": 44.97, 
+                    "end": "2014-06-06T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-05-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 330.0
+                }, 
+                {
+                    "cost": 15.34, 
+                    "end": "2014-06-06T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-05-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 99.0
+                }, 
+                {
+                    "cost": 73.82, 
+                    "end": "2014-06-06T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31955, 
+                    "start": "2014-05-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 231.0
+                }, 
+                {
+                    "cost": 42.79, 
+                    "end": "2014-06-06T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35955, 
+                    "start": "2014-05-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 119.0
+                }, 
+                {
+                    "cost": 0.23, 
+                    "end": "2014-06-06T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-05-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_09_2018-12-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 15.34, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 99.0
+                }, 
+                {
+                    "cost": 73.82, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 231.0
+                }, 
+                {
+                    "cost": 44.97, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 330.0
+                }, 
+                {
+                    "cost": 42.79, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 119.0
+                }
+            ], 
+            "uid": 2726745, 
+            "updated": "2019-05-18T00:47:21.686847-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-11-30T16:00:00.000000-08:00", 
+                "bill_start_date": "2018-10-31T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-11-30T16:00:00.000000-08:00", 
+                "bill_total_cost": 227.47, 
+                "bill_total_kwh": 938.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 938.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:20.596150-07:00", 
+            "line_items": [
+                {
+                    "cost": 47.97, 
+                    "end": "2014-07-08T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-06-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 352.0
+                }, 
+                {
+                    "cost": 16.36, 
+                    "end": "2014-07-08T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-06-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 105.6
+                }, 
+                {
+                    "cost": 78.74, 
+                    "end": "2014-07-08T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31955, 
+                    "start": "2014-06-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 246.4
+                }, 
+                {
+                    "cost": 84.13, 
+                    "end": "2014-07-08T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35955, 
+                    "start": "2014-06-07T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 234.0
+                }, 
+                {
+                    "cost": 0.27, 
+                    "end": "2014-07-08T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-06-07T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_08_2018-11-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 16.36, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 105.6
+                }, 
+                {
+                    "cost": 78.74, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 246.4
+                }, 
+                {
+                    "cost": 47.97, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 352.0
+                }, 
+                {
+                    "cost": 84.13, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 234.0
+                }
+            ], 
+            "uid": 2726744, 
+            "updated": "2019-05-18T00:47:20.596150-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-10-31T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-09-30T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-10-31T17:00:00.000000-07:00", 
+                "bill_total_cost": 199.0, 
+                "bill_total_kwh": 846.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 846.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:19.572074-07:00", 
+            "line_items": [
+                {
+                    "cost": 34.48, 
+                    "end": "2014-07-31T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.13627, 
+                    "start": "2014-07-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 253.0
+                }, 
+                {
+                    "cost": 11.76, 
+                    "end": "2014-07-31T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.15491, 
+                    "start": "2014-07-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 75.9
+                }, 
+                {
+                    "cost": 56.59, 
+                    "end": "2014-07-31T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.31955, 
+                    "start": "2014-07-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 177.1
+                }, 
+                {
+                    "cost": 51.27, 
+                    "end": "2014-07-31T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.35955, 
+                    "start": "2014-07-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 142.6
+                }, 
+                {
+                    "cost": 0.19, 
+                    "end": "2014-07-31T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-07-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.4, 
+                    "end": "2014-08-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.14707, 
+                    "start": "2014-08-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 70.7
+                }, 
+                {
+                    "cost": 3.61, 
+                    "end": "2014-08-07T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17028, 
+                    "start": "2014-08-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 21.21
+                }, 
+                {
+                    "cost": 12.8, 
+                    "end": "2014-08-07T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.25859, 
+                    "start": "2014-08-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 49.49
+                }, 
+                {
+                    "cost": 17.84, 
+                    "end": "2014-08-07T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.31859, 
+                    "start": "2014-08-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 56.0
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2014-08-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-08-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_07_2018-10-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 15.37, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 97.11000000000001
+                }, 
+                {
+                    "cost": 69.39, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 226.59
+                }, 
+                {
+                    "cost": 44.879999999999995, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 323.7
+                }, 
+                {
+                    "cost": 69.11, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 198.6
+                }
+            ], 
+            "uid": 2726743, 
+            "updated": "2019-05-18T00:47:19.572074-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-09-30T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-08-31T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-09-30T17:00:00.000000-07:00", 
+                "bill_total_cost": 204.55, 
+                "bill_total_kwh": 903.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 903.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:18.599572-07:00", 
+            "line_items": [
+                {
+                    "cost": 47.53, 
+                    "end": "2014-09-08T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.14707, 
+                    "start": "2014-08-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 323.2
+                }, 
+                {
+                    "cost": 16.51, 
+                    "end": "2014-09-08T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17028, 
+                    "start": "2014-08-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 96.96
+                }, 
+                {
+                    "cost": 58.5, 
+                    "end": "2014-09-08T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.25859, 
+                    "start": "2014-08-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 226.24
+                }, 
+                {
+                    "cost": 81.75, 
+                    "end": "2014-09-08T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.31859, 
+                    "start": "2014-08-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 256.6
+                }, 
+                {
+                    "cost": 0.26, 
+                    "end": "2014-09-08T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-08-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_06_2018-09-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 16.51, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 96.96
+                }, 
+                {
+                    "cost": 58.5, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 226.24
+                }, 
+                {
+                    "cost": 47.53, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 323.2
+                }, 
+                {
+                    "cost": 81.75, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 256.6
+                }
+            ], 
+            "uid": 2726742, 
+            "updated": "2019-05-18T00:47:18.599572-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-08-31T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-07-31T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-08-31T17:00:00.000000-07:00", 
+                "bill_total_cost": 191.24, 
+                "bill_total_kwh": 833.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 833.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:17.572244-07:00", 
+            "line_items": [
+                {
+                    "cost": 32.68, 
+                    "end": "2014-09-30T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.14707, 
+                    "start": "2014-09-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 222.2
+                }, 
+                {
+                    "cost": 11.35, 
+                    "end": "2014-09-30T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17028, 
+                    "start": "2014-09-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 66.66
+                }, 
+                {
+                    "cost": 40.22, 
+                    "end": "2014-09-30T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.25859, 
+                    "start": "2014-09-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 155.54
+                }, 
+                {
+                    "cost": 59.75, 
+                    "end": "2014-09-30T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.31859, 
+                    "start": "2014-09-09T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 187.53103
+                }, 
+                {
+                    "cost": 0.18, 
+                    "end": "2014-09-30T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-09-09T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.81, 
+                    "end": "2014-10-07T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.15293, 
+                    "start": "2014-10-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 70.7
+                }, 
+                {
+                    "cost": 3.74, 
+                    "end": "2014-10-07T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17614, 
+                    "start": "2014-10-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 21.21
+                }, 
+                {
+                    "cost": 13.09, 
+                    "end": "2014-10-07T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.26445, 
+                    "start": "2014-10-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 49.49
+                }, 
+                {
+                    "cost": 19.36, 
+                    "end": "2014-10-07T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.32445, 
+                    "start": "2014-10-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 59.66897
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2014-10-07T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-10-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_05_2018-08-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 15.09, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 87.87
+                }, 
+                {
+                    "cost": 53.31, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 205.03
+                }, 
+                {
+                    "cost": 43.49, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 292.9
+                }, 
+                {
+                    "cost": 79.11, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 247.2
+                }
+            ], 
+            "uid": 2726741, 
+            "updated": "2019-05-18T00:47:17.572244-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-07-31T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-06-30T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-07-31T17:00:00.000000-07:00", 
+                "bill_total_cost": 135.13, 
+                "bill_total_kwh": 652.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 652.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:16.653843-07:00", 
+            "line_items": [
+                {
+                    "cost": 37.07, 
+                    "end": "2014-10-31T07:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.15293, 
+                    "start": "2014-10-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 242.4
+                }, 
+                {
+                    "cost": 12.81, 
+                    "end": "2014-10-31T07:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17614, 
+                    "start": "2014-10-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 72.72
+                }, 
+                {
+                    "cost": 44.87, 
+                    "end": "2014-10-31T07:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.26445, 
+                    "start": "2014-10-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 169.68
+                }, 
+                {
+                    "cost": 17.78, 
+                    "end": "2014-10-31T07:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.32445, 
+                    "start": "2014-10-08T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 54.78621
+                }, 
+                {
+                    "cost": 0.16, 
+                    "end": "2014-10-31T07:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-10-08T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 8.33, 
+                    "end": "2014-11-05T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.15293, 
+                    "start": "2014-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 54.5
+                }, 
+                {
+                    "cost": 2.88, 
+                    "end": "2014-11-05T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17614, 
+                    "start": "2014-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 16.35
+                }, 
+                {
+                    "cost": 10.09, 
+                    "end": "2014-11-05T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.26445, 
+                    "start": "2014-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 38.15
+                }, 
+                {
+                    "cost": 1.11, 
+                    "end": "2014-11-05T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.32445, 
+                    "start": "2014-11-01T07:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 3.41379
+                }, 
+                {
+                    "cost": 0.03, 
+                    "end": "2014-11-05T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-11-01T07:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_04_2018-07-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 15.690000000000001, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 89.07
+                }, 
+                {
+                    "cost": 54.959999999999994, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 207.83
+                }, 
+                {
+                    "cost": 45.4, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 296.9
+                }, 
+                {
+                    "cost": 18.89, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 58.199999999999996
+                }
+            ], 
+            "uid": 2726740, 
+            "updated": "2019-05-18T00:47:16.653843-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-06-30T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-05-31T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-06-30T17:00:00.000000-07:00", 
+                "bill_total_cost": 201.52, 
+                "bill_total_kwh": 889.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 889.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:15.552749-07:00", 
+            "line_items": [
+                {
+                    "cost": 51.68, 
+                    "end": "2014-12-06T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.15293, 
+                    "start": "2014-11-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 337.9
+                }, 
+                {
+                    "cost": 17.86, 
+                    "end": "2014-12-06T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17614, 
+                    "start": "2014-11-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 101.37
+                }, 
+                {
+                    "cost": 62.55, 
+                    "end": "2014-12-06T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.26445, 
+                    "start": "2014-11-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 236.53
+                }, 
+                {
+                    "cost": 69.17, 
+                    "end": "2014-12-06T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.32445, 
+                    "start": "2014-11-06T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 213.2
+                }, 
+                {
+                    "cost": 0.26, 
+                    "end": "2014-12-06T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-11-06T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_03_2018-06-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 17.86, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 101.37
+                }, 
+                {
+                    "cost": 62.55, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 236.53
+                }, 
+                {
+                    "cost": 51.68, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 337.9
+                }, 
+                {
+                    "cost": 69.17, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 213.2
+                }
+            ], 
+            "uid": 2726739, 
+            "updated": "2019-05-18T00:47:15.552749-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-05-31T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-04-30T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-05-31T17:00:00.000000-07:00", 
+                "bill_total_cost": 244.82, 
+                "bill_total_kwh": 1017.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 1017.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:14.697068-07:00", 
+            "line_items": [
+                {
+                    "cost": 41.67, 
+                    "end": "2014-12-31T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.15293, 
+                    "start": "2014-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 272.5
+                }, 
+                {
+                    "cost": 14.4, 
+                    "end": "2014-12-31T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.17614, 
+                    "start": "2014-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 81.75
+                }, 
+                {
+                    "cost": 50.44, 
+                    "end": "2014-12-31T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.26445, 
+                    "start": "2014-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 190.75
+                }, 
+                {
+                    "cost": 89.28, 
+                    "end": "2014-12-31T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.32445, 
+                    "start": "2014-12-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 275.16129
+                }, 
+                {
+                    "cost": 0.24, 
+                    "end": "2014-12-31T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2014-12-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }, 
+                {
+                    "cost": 10.58, 
+                    "end": "2015-01-06T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.1617, 
+                    "start": "2015-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 65.4
+                }, 
+                {
+                    "cost": 3.63, 
+                    "end": "2015-01-06T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.18491, 
+                    "start": "2015-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 19.62
+                }, 
+                {
+                    "cost": 12.51, 
+                    "end": "2015-01-06T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.27322, 
+                    "start": "2015-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 45.78
+                }, 
+                {
+                    "cost": 22.01, 
+                    "end": "2015-01-06T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.33322, 
+                    "start": "2015-01-01T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 66.03871
+                }, 
+                {
+                    "cost": 0.06, 
+                    "end": "2015-01-06T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2015-01-01T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_02_2018-05-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 18.03, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 101.37
+                }, 
+                {
+                    "cost": 62.949999999999996, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 236.53
+                }, 
+                {
+                    "cost": 52.25, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 337.9
+                }, 
+                {
+                    "cost": 111.29, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 341.2
+                }
+            ], 
+            "uid": 2726738, 
+            "updated": "2019-05-18T00:47:14.697068-07:00", 
+            "utility": "DEMO"
+        }, 
+        {
+            "authorization_uid": 132368, 
+            "base": {
+                "bill_end_date": "2018-04-30T17:00:00.000000-07:00", 
+                "bill_start_date": "2018-03-31T17:00:00.000000-07:00", 
+                "bill_statement_date": "2018-04-30T17:00:00.000000-07:00", 
+                "bill_total_cost": 194.78, 
+                "bill_total_kwh": 837.0, 
+                "bill_total_unit": "kwh", 
+                "bill_total_volume": 837.0, 
+                "billing_account": "1234567890-0", 
+                "billing_address": "123 Main St #100, Anytown, CA 94612", 
+                "billing_contact": "Heather Homeowner", 
+                "meter_numbers": [
+                    "A987654321"
+                ], 
+                "service_address": "123 Main St #100, Anytown, CA 94612", 
+                "service_identifier": "1234567890", 
+                "service_tariff": "E1 XB Residential Service"
+            }, 
+            "blocks": [
+                "base", 
+                "sources", 
+                "line_items", 
+                "tiers"
+            ], 
+            "created": "2019-05-18T00:47:13.554834-07:00", 
+            "line_items": [
+                {
+                    "cost": 52.88, 
+                    "end": "2015-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 1 Usage", 
+                    "rate": 0.1617, 
+                    "start": "2015-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 327.0
+                }, 
+                {
+                    "cost": 18.14, 
+                    "end": "2015-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 2 Usage", 
+                    "rate": 0.18491, 
+                    "start": "2015-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 98.1
+                }, 
+                {
+                    "cost": 62.54, 
+                    "end": "2015-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 3 Usage", 
+                    "rate": 0.27322, 
+                    "start": "2015-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 228.9
+                }, 
+                {
+                    "cost": 60.98, 
+                    "end": "2015-02-05T08:00:00.000000+00:00", 
+                    "name": "Tier 4 Usage", 
+                    "rate": 0.33322, 
+                    "start": "2015-01-07T08:00:00.000000+00:00", 
+                    "unit": "kwh", 
+                    "volume": 183.0
+                }, 
+                {
+                    "cost": 0.24, 
+                    "end": "2015-02-05T08:00:00.000000+00:00", 
+                    "name": "Energy Commission Tax", 
+                    "rate": null, 
+                    "start": "2015-01-07T08:00:00.000000+00:00", 
+                    "unit": null, 
+                    "volume": null
+                }
+            ], 
+            "meter_uid": "367853", 
+            "notes": [], 
+            "sources": [
+                {
+                    "raw_url": "https://utilityapi.com/api/v2/files/pdf_bill/367853/demo_bill_E1_01_2018-04-01.pdf", 
+                    "type": "pdf"
+                }
+            ], 
+            "tiers": [
+                {
+                    "cost": 18.14, 
+                    "level": 2, 
+                    "name": "Tier 2", 
+                    "unit": "kwh", 
+                    "volume": 98.1
+                }, 
+                {
+                    "cost": 62.54, 
+                    "level": 3, 
+                    "name": "Tier 3", 
+                    "unit": "kwh", 
+                    "volume": 228.9
+                }, 
+                {
+                    "cost": 52.88, 
+                    "level": 1, 
+                    "name": "Tier 1", 
+                    "unit": "kwh", 
+                    "volume": 327.0
+                }, 
+                {
+                    "cost": 60.98, 
+                    "level": 4, 
+                    "name": "Tier 4", 
+                    "unit": "kwh", 
+                    "volume": 183.0
+                }
+            ], 
+            "uid": 2726737, 
+            "updated": "2019-05-18T00:47:13.554834-07:00", 
+            "utility": "DEMO"
+        }
+    ], 
+    "next": null
+}
